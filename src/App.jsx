@@ -28,7 +28,9 @@ function App() {
     }
 return(
     <>
-        <h1 className='heading'> Hello, Sir <span style={cssStyle}> {greetings}</span></h1>
+        <div className= 'style-box'>
+            <h1 className='heading'> Hello, Sir <span style={cssStyle}> {greetings}</span></h1>
+        </div>
         <div className='date-time'>
             <p> Current Date is = {curDate}</p>
             <p> Current Time is = {currTime}</p>

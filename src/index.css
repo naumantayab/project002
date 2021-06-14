@@ -4,12 +4,30 @@
     margin: 0;
 }
 
+.style-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .heading {
     color: yellowgreen;
     font-weight: bold;
-    margin: 70px 0;
+    margin: 70px 0px;
     text-align: center;
-    text-shadow: 0px 2px 4px rgb(149, 207, 33)
+    justify-content: 29%;
+    width: 25%;
+    text-shadow: 0px 2px 4px rgb(149 207 33);
+    background-color: antiquewhite;
+    border-radius: 80px;
+    padding: 10px 0px;
+    box-shadow: 0 2px 4px 0px grey;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .date-time {
